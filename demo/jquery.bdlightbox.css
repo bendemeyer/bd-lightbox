@@ -1,0 +1,131 @@
+.bd-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .75);
+}
+
+.bd-item {
+    position: fixed;
+}
+
+.bd-close {
+	position:absolute;
+	height:20px;
+	width:20px;
+	top:-30px;
+	right:0;
+	cursor:pointer;
+}
+
+.bd-close:before {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 110%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+    width: 2px;
+}
+
+.bd-close:after {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 110%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+    width: 2px;
+}
+
+.bd-caption {
+	color:#ffffff;
+	padding-top:10px;
+	word-wrap:break-word;
+}
+
+.bd-prev {
+	position:absolute;
+	height:40px;
+	width:20px;
+	left:-30px;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	cursor:pointer;
+}
+
+.bd-prev:before {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+    width: 2px;
+	bottom:44.5%;
+}
+.bd-prev:after {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(145deg);
+	-ms-transform: rotate(145deg);
+	-webkit-transform: rotate(145deg);
+    width: 2px;
+	top:44.5%;
+}
+
+.bd-next {
+	position:absolute;
+	height:40px;
+	width:20px;
+	right:-30px;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	cursor:pointer;
+}
+
+.bd-next:before {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(145deg);
+	-ms-transform: rotate(145deg);
+	-webkit-transform: rotate(145deg);
+    width: 2px;
+	bottom:44.5%;
+}
+.bd-next:after {
+    background-color: #FFFFFF;
+    content: "";
+    display: block;
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    transform: rotate(35deg);
+	-ms-transform: rotate(35deg);
+	-webkit-transform: rotate(35deg);
+    width: 2px;
+	top:44.5%;
+}
